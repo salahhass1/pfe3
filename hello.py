@@ -15,7 +15,7 @@ port = int(os.getenv("PORT", 9099))
 
 @app.route('/')
 def hello_world():
-    return 'Hello World !   I am salah ben hassouna and instance  ' + str(os.getenv("CF_INSTANCE_INDEX", 0))
+    return 'Hello World !   I am salah  and instance  ' + str(os.getenv("CF_INSTANCE_INDEX", 0))
 
 if __name__ == '__main__':
     # Run the app, listening on all IPs with our chosen port number
